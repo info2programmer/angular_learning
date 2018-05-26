@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  visible=true;
+  toogleDiv(){
+    this.visible=!this.visible;
+  }
 }
