@@ -7,12 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  visible=true;
-  toogleDiv(){
-    this.visible=!this.visible;
-  }
-  myFavLang={
-    'frontEnd' : ['html','css','javascript'],
-    'backEnd' : ['php','python','ruby','nodejs']
-  }
+  myFavLang = [
+    {'name' : 'HTML' , 'type' : 'frontend'},
+    {'name' : 'CSS' , 'type' : 'frontend'},
+    {'name' : 'JS' , 'type' : 'frontend'},
+    {'name' : 'PHP' , 'type' : 'backend'},
+  ];
 }
