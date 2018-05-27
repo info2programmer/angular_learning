@@ -11,4 +11,8 @@ export class AppComponent {
   toogleDiv(){
     this.visible=!this.visible;
   }
+  myFavLang={
+    'frontEnd' : ['html','css','javascript'],
+    'backEnd' : ['php','python','ruby','nodejs']
+  }
 }
